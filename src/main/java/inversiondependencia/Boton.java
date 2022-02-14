@@ -2,18 +2,18 @@ package inversiondependencia;
 
 public class Boton {
 
-    private Lampara lampara;
+    private Interruptor interruptorPorBoton;
 
-    public Boton(Lampara lampara) {
-        this.lampara = lampara;
+    public Boton(Interruptor interruptorPorBoton) {
+        this.interruptorPorBoton = interruptorPorBoton;
     }
 
     public void pulsar(boolean presionar) {
 
         if (presionar) {
-            lampara.encender();
+            interruptorPorBoton.encender();
         } else {
-            lampara.apagar();
+            interruptorPorBoton.apagar();
         }
     }
 }

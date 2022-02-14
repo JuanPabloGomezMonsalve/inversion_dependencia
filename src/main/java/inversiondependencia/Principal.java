@@ -2,9 +2,9 @@ package inversiondependencia;
 
 public class Principal {
     public static void main(String[] args) {
-        Televisor televisor = new Televisor();
+        Interruptor televisor = new Televisor();
 
-        Lampara lampara = new Lampara();
+        Interruptor lampara = new Lampara();
 
         Boton boton = new Boton(lampara);
 
